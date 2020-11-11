@@ -54,13 +54,13 @@ const Register = () => {
                     <Col sm={10}>
                     <FormGroup check>
                         <Label check>
-                        <Input type="radio" name="radio2" id="gender1" />{' '}
+                        <Input type="radio" name="drone" id="gender1" value="Male" />
                         Male
                         </Label>
                     </FormGroup>
                     <FormGroup check>
                         <Label check>
-                        <Input type="radio" name="radio2" id="gender2" />{' '}
+                        <Input type="radio" name="drone" id="gender2" value="Female" />
                         Female
                         </Label>
                     </FormGroup>
